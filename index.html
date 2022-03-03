@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="cs">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Příklad zadání praktické prověrky</title>
+    <link rel="stylesheet" href="../vmazurova/css/index.css">
+
+</head>
+
+<body>
+    <header>
+        <h1>Příklad zadání praktické prověrky</h1>
+        <hr>
+    </header>
+
+
+    <main><a href="#text">Textové úpravy</a>
+        <a href="#tab">Tabulka</a>
+        <h2 id="text">Textové úpravy</h2>
+        <p>IP adresa je unikátní číslo, které je přiděleno libovolnému zařízení komunikujícímu prostřednictvím internetového protokolu (IP). Svoji IP adresu tak mají nejen počítače, notebooky nebo tiskárny, ale také každý telefon, tablet nebo například nová
+            pračka.IP adresa slouží k rozlišení síťových rozhraní připojených k počítačové síti. Síťovým rozhraním může být síťová karta (Ethernet, Wi-Fi), IrDA port, ale může se jednat i o virtuální zařízení (loopback, rozhraní pro virtuální počítač
+            a podobně). Zkratka IP znamená Internet Protocol, což je protokol, pomocí kterého spolu komunikují všechna zařízení v Internetu. Dnes nejčastěji používaná je jeho čtvrtá verze (IPv4), postupně se však přechází na novější verzi 6 (IPv6). V
+            jiných protokolech se adresování jednotlivých zařízení může provádět jinak (viz např. MAC adresa). IP protokol byl původně vyvinut pro potřeby komunikace v Internetu. IP adresa musí být v dané síti jednoznačná (jedno rozhraní může mít více
+            IP adres, ale stejná IP adresa nemůže být na více rozhraních), avšak lze používat NAT a privátní IP adresy (viz níže). Veškerá data jsou mezi síťovými rozhraními přenášena v podobě IP datagramů. Jelikož by pro běžné uživatele počítačových
+            sítí bylo velice obtížné pamatovat si číselné adresy, existuje služba DNS (Domain Name System), která umožňuje používat snadněji zapamatovatelná doménová jména počítačů, která jsou automaticky převáděna na IP adresy (např. <a href="https://www.seznam.cz/">seznam</a>).
+
+        </p>
+        <dl>
+            <dt><b>HTML</b></dt>
+            <dd>informatice název značkovacího jazyka používaného pro tvorbu webových stránek, které jsou propojeny hypertextovými odkazy. </dd>
+            <dt><b>HTTP</b></dt>
+            <dd>je internetový protokol určený pro komunikaci s WWW servery. Slouží pro přenos hypertextových dokumentů ve formátu HTML, XML, i jiných typů souborů. </dd>
+            <dt><b>Validátor</b></dt>
+            <dd>je počítačový program používaný ke kontrole platnosti nebo syntaktické správnosti fragmentu kódu nebo dokumentu. </dd>
+            <dt><b>Server</b></dt>
+            <dd>je v informatice obecné označení pro počítač, který poskytuje nějaké služby, nebo počítačový program, který tyto služby realizuje. </dd>
+        </dl>
+
+        <hr>
+        <h2 id="tab">Tabulka</h2>
+        <table style="width: 50%;">
+            <tr>
+                <th rowspan="2" style="width: 40%;">Nečíslovaný seznam</th>
+                <th colspan="2" style="width: 40%">Prvky stránky</th>
+                <th rowspan="2">Obrázky</th>
+            </tr>
+            <tr>
+                <th style="width: 20%;">Značky</th>
+                <th style="width: 20%;">Entity</th>
+            </tr>
+
+
+            <tr>
+                <td style="width: 70%;" rowspan="2" class="ok">
+                    <ul>
+                        <li>Ip adresa</li>
+                        <li>Jmenná adresa</li>
+                        <li>URL</li>
+                    </ul>
+                </td>
+                <td class="ok">H₂O</td>
+                <td class="ok">>&</td>
+                <td rowspan="2" style="width: 70%"><img class="jo" src="../vmazurova/img/sunset.jpg" alt="Sunset"></td>
+            </tr>
+            <tr>
+                <td class="ok">c2 = a2 + b2</td>
+                <td class="ok">@</td>
+            </tr>
+            <tr>
+                <td class="ok">Odkaz</td>
+                <td colspan="3" class="ok"> <a href="https://www.w3schools.com/">w3schools.com</a> </td>
+            </tr>
+        </table>
+    </main>
+    <footer>
+        <hr> &copy; Viktorie Mazurová IT1
+    </footer>
+</body>
+
+</html>

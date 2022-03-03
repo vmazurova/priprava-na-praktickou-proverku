@@ -1,0 +1,37 @@
+h1 {
+    color: brown;
+    font-size: 300%;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+}
+
+table,
+th,
+td {
+    border: 1px solid black;
+    font-size: 115%;
+}
+
+table {
+    height: 150px;
+}
+
+main {
+    font-size: 125%;
+    text-align: left;
+    width: 1160px;
+    margin: 20px auto;
+    background-color: white;
+}
+
+body {
+    background-color: blanchedalmond;
+}
+
+.jo {
+    width: 200px;
+    height: 150px;
+}
